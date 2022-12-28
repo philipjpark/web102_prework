@@ -19,8 +19,27 @@ body {
     margin-top: -10px;
 }
 
+.header input[type=search] {
+    width:auto;
+    padding: 12px 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    font-size: medium;
+  }
+
 .stats-container {
     display: flex;
+    align-items: baseline;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#description-container {
+    padding: 2px;
+    color: white;
 }
 
 .stats-card {
@@ -68,8 +87,12 @@ body {
 
 button {
     font-family: 'Cabin';
+    font-size: 16px;
+    text-align: center;
+
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
 }
